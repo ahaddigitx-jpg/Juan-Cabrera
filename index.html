@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>LinkedIn Positioning Review | Juan Cabrera</title>
+<meta name="description" content="A personalized LinkedIn positioning review for Juan Cabrera, Founder and CEO of SoftWorks Global.">
+<style>
+:root{--ink:#14232d;--muted:#60717b;--paper:#f6f8f8;--white:#fff;--line:#dce5e7;--teal:#087f86;--teal-dark:#07545d;--aqua:#dff5f2;--navy:#102c38;--shadow:0 18px 50px rgba(18,45,54,.08);--serif:Georgia,'Times New Roman',serif;--sans:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:88px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:var(--teal-dark);text-underline-offset:3px}
+button{font:inherit}
+button:focus-visible,a:focus-visible{outline:3px solid #26aeb0;outline-offset:3px}
+.wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+.topbar{position:sticky;top:0;z-index:20;background:rgba(246,248,248,.94);backdrop-filter:blur(12px);border-bottom:1px solid rgba(220,229,231,.85)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:68px}
+.brand{font-size:.77rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:var(--teal-dark)}
+.navlinks{display:flex;gap:20px;align-items:center;overflow-x:auto;white-space:nowrap}
+.navlinks a{font-size:.82rem;text-decoration:none;color:#52636d}
+.navlinks a.active{color:var(--teal-dark);font-weight:750}
+.hero{background:var(--navy);color:#f7fbfc;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;width:560px;height:560px;border:1px solid rgba(75,209,204,.2);border-radius:50%;right:-150px;top:-280px;box-shadow:0 0 0 48px rgba(75,209,204,.035),0 0 0 98px rgba(75,209,204,.025)}
+.hero-inner{position:relative;padding:78px 0 72px;max-width:900px}
+.kicker{font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:#7be0d9}
+h1,h2,h3,p{margin-top:0}
+h1{font-family:var(--serif);font-size:clamp(2.6rem,6vw,5.2rem);line-height:1.02;letter-spacing:-.045em;font-weight:500;margin:20px 0 24px;max-width:850px}
+.hero p{font-size:1.08rem;color:#d0e0e4;max-width:700px}
+.hero-meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.pill{border:1px solid rgba(255,255,255,.22);border-radius:100px;padding:8px 13px;color:#d8e9eb;font-size:.78rem}
+.hero-cta{display:inline-flex;align-items:center;gap:8px;margin-top:20px;color:#102c38;background:#8ce7df;border-radius:6px;padding:12px 17px;text-decoration:none;font-weight:800;font-size:.88rem}
+main{padding:46px 0 90px}
+.section{padding:44px 0;border-bottom:1px solid var(--line);scroll-margin-top:88px}
+.section-head{display:grid;grid-template-columns:150px 1fr;gap:28px;margin-bottom:26px}
+.section-label{font-size:.72rem;font-weight:850;letter-spacing:.13em;text-transform:uppercase;color:var(--teal);padding-top:8px}
+h2{font-family:var(--serif);font-size:clamp(1.9rem,3.6vw,3rem);font-weight:500;line-height:1.1;letter-spacing:-.03em;margin-bottom:12px}
+.lede{font-size:1.04rem;color:var(--muted);max-width:760px;margin-bottom:0}
+.grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.insight,.panel,.headline-card,.featured-card{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:22px;box-shadow:0 5px 20px rgba(18,45,54,.025)}
+.insight .num{color:var(--teal);font-size:.75rem;font-weight:850;letter-spacing:.1em}
+.insight h3,.featured-card h3{font-size:1.08rem;margin:10px 0 8px;line-height:1.3}
+.insight p,.featured-card p,.panel p{font-size:.93rem;color:var(--muted);margin-bottom:0}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.compare .panel{padding:25px}
+.panel.dark{background:var(--navy);color:#fff;border-color:var(--navy)}
+.panel.dark p{color:#d2e1e4}
+.panel h3{font-size:1.04rem;margin-bottom:12px}
+.tag{display:inline-block;font-size:.69rem;text-transform:uppercase;letter-spacing:.12em;font-weight:850;color:var(--teal);margin-bottom:10px}
+.panel.dark .tag{color:#7be0d9}
+.quote{border-left:3px solid #39b8b2;padding:3px 0 3px 17px;font-size:1.02rem;line-height:1.6;overflow-wrap:anywhere}
+.reason-list{padding-left:20px;color:var(--muted);margin-bottom:0}
+.reason-list li{padding:4px 0}
+.headlines{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.headline-card h3{font-size:1.08rem;line-height:1.45;margin:18px 0 10px;overflow-wrap:anywhere}
+.card-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.eyebrow{font-size:.68rem;letter-spacing:.12em;color:var(--teal);font-weight:850}
+.copy-btn{border:1px solid #b8d5d6;background:#f4fbfa;color:var(--teal-dark);border-radius:6px;padding:7px 12px;font-size:.78rem;font-weight:800;cursor:pointer;transition:background .2s,transform .2s}
+.copy-btn:hover{background:var(--aqua);transform:translateY(-1px)}
+.muted{color:var(--muted);font-size:.88rem}
+.current-about{white-space:normal;max-height:360px;overflow:auto;color:#53656e;font-size:.9rem;line-height:1.75;padding:20px;background:#fff;border:1px solid var(--line);border-radius:10px}
+.about-block{background:#fff;border:1px solid var(--line);border-radius:12px;padding:clamp(20px,4vw,34px);box-shadow:var(--shadow)}
+.about-text{white-space:pre-line;line-height:1.85;font-size:1rem;max-width:780px}
+.about-actions{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:22px}
+.copy-primary{background:var(--teal-dark);color:#fff;border:0;border-radius:6px;padding:11px 15px;font-weight:800;cursor:pointer}
+.featured-card .number{font-family:var(--serif);font-size:2.1rem;color:#8bbdc0;line-height:1}
+.banner-direction{display:grid;grid-template-columns:1.15fr .85fr;gap:24px;align-items:center;background:#102c38;color:#fff;padding:28px;border-radius:12px;overflow:hidden}
+.banner-sample{border:1px solid rgba(255,255,255,.18);padding:25px;background:radial-gradient(ellipse at 95% 10%,rgba(0,194,187,.24),transparent 45%),#0b1b29;min-height:185px;display:flex;flex-direction:column;justify-content:center}
+.banner-sample strong{font-size:clamp(1.15rem,2.7vw,2rem);line-height:1.15;max-width:360px}
+.banner-sample span{color:#73e2dc}
+.banner-sample small{color:#c5d7dc;margin-top:12px}
+.banner-direction p{color:#d0e0e4}
+.shift{display:grid;grid-template-columns:1fr 44px 1fr;gap:16px;align-items:stretch}
+.shift-box{padding:24px;border-radius:10px;background:#fff;border:1px solid var(--line)}
+.shift-box.new{background:var(--aqua);border-color:#b9e8e4}
+.shift-box h3{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.shift-arrow{display:grid;place-items:center;color:var(--teal);font-size:1.7rem}
+.sources{font-size:.84rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:10px}
+.sources a{font-weight:700}
+.footer{background:#102c38;color:#d4e3e6;padding:34px 0;font-size:.84rem}
+.reveal{opacity:0;transform:translateY(12px);transition:opacity .55s ease,transform .55s ease}
+.reveal.visible{opacity:1;transform:none}
+@media(max-width:760px){.nav{align-items:flex-start;flex-direction:column;padding:13px 0;gap:9px}.navlinks{width:100%;gap:16px;padding-bottom:2px}.hero-inner{padding:55px 0 52px}.section-head{grid-template-columns:1fr;gap:8px}.grid-3,.compare,.headlines,.banner-direction{grid-template-columns:1fr}.shift{grid-template-columns:1fr;gap:10px}.shift-arrow{transform:rotate(90deg);font-size:1.3rem}.banner-sample{min-height:160px}.section{padding:32px 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="wrap nav">
+  <div class="brand">LinkedIn Positioning Review</div>
+  <nav class="navlinks" aria-label="Page navigation">
+    <a href="#overview">Overview</a><a href="#positioning">Positioning</a><a href="#headline">Headline</a><a href="#about">About</a><a href="#featured">Featured</a><a href="#banner">Banner</a>
+  </nav>
+</div></header>
+<section class="hero" id="overview"><div class="wrap hero-inner">
+  <div class="kicker">Prepared for Juan Cabrera</div>
+  <h1>Make the value of your software ecosystem instantly clear.</h1>
+  <p>A focused positioning review for the Founder &amp; CEO of SoftWorks Global. The opportunity is to connect your broad portfolio of industry-specific SaaS products to one memorable idea: software shaped around how small businesses actually work.</p>
+  <div class="hero-meta"><span class="pill">Vertical SaaS</span><span class="pill">Small business operations</span><span class="pill">100+ platforms across 15+ industries</span></div>
+  <a class="hero-cta" href="#headline">Explore the positioning options <span aria-hidden="true">↘</span></a>
+</div></section>
+<main class="wrap">
+<section class="section" aria-labelledby="findings"><div class="section-head"><div class="section-label">01 / Overview</div><div><h2 id="findings">What stands out</h2><p class="lede">The substance is already there. The profile can make the portfolio's distinctive logic easier to grasp at a glance.</p></div></div>
+<div class="grid-3">
+ <article class="insight reveal"><div class="num">01</div><h3>Lead with the business problem</h3><p>Small business operators need tools for their actual workflows, not another generic all-in-one platform. Make that contrast your central message.</p></article>
+ <article class="insight reveal"><div class="num">02</div><h3>Clarify the scale correctly</h3><p>Your website describes 100+ SaaS platforms across 15+ industries. That is more precise and credible than saying 100+ industries.</p></article>
+ <article class="insight reveal"><div class="num">03</div><h3>Connect founder and portfolio</h3><p>Bring SaaS product building, operational efficiency, and practical AI into one coherent story instead of presenting them as separate interests.</p></article>
+</div></section>
+<section class="section" id="positioning"><div class="section-head"><div class="section-label">02 / Positioning</div><div><h2>Your current positioning</h2><p class="lede">The profile establishes your role, company, broad industry reach, and authorship. The next step is making the reason to care more immediate.</p></div></div>
+<div class="compare">
+ <article class="panel"><span class="tag">What comes through</span><h3>Founder with technical range and a wide SaaS portfolio</h3><p>The supplied profile connects SoftWorks Global with SaaS, small business operations, AI, cloud technology, and automation. The company website adds a clear point of difference: focused products built for specific industry workflows.</p></article>
+ <article class="panel dark"><span class="tag">What can be clearer</span><h3>Who benefits, and why this approach is different</h3><p>A visitor should quickly understand that you build specialized software for small business operators, rather than a single generic platform. The industry breadth is proof of the model, not the whole message.</p></article>
+</div>
+<div style="margin-top:18px" class="panel"><h3>Current headline</h3><div class="quote">Founder &amp; CEO at SoftWorks Global | Building SaaS software for small business operations across 100+ industries | Author of Smart AI Agents</div><p style="margin-top:16px">A visitor arriving from a post, referral, or company page can identify your role and the broad category. They still have to infer what makes the portfolio distinctive. Also, the profile says “100+ industries,” while the company website states “100+ SaaS platforms” and “15+ industries.” Aligning this language avoids confusion.</p></div>
+</section>
+<section class="section" id="headline"><div class="section-head"><div class="section-label">03 / Headline</div><div><h2>Five stronger directions</h2><p class="lede">Choose the direction that best matches what you want a visitor to remember first. Each option is ready to copy.</p></div></div>
+<div class="headlines">
+      <article class="headline-card reveal">
+        <div class="card-top"><span class="eyebrow">OPTION 01</span><button class="copy-btn" data-copy="Founder &amp; CEO, SoftWorks Global | Industry-Specific SaaS for Small Businesses | 100+ Platforms Across 15+ Industries" aria-label="Copy headline option 1">Copy</button></div>
+        <h3>Founder &amp; CEO, SoftWorks Global | Industry-Specific SaaS for Small Businesses | 100+ Platforms Across 15+ Industries</h3><p class="muted">Leads with role, audience, and the clearest verified scale proof.</p>
+      </article>
+      <article class="headline-card reveal">
+        <div class="card-top"><span class="eyebrow">OPTION 02</span><button class="copy-btn" data-copy="Building SaaS That Fits the Way Small Businesses Work | Founder &amp; CEO at SoftWorks Global" aria-label="Copy headline option 2">Copy</button></div>
+        <h3>Building SaaS That Fits the Way Small Businesses Work | Founder &amp; CEO at SoftWorks Global</h3><p class="muted">Makes the core differentiation easy to understand.</p>
+      </article>
+      <article class="headline-card reveal">
+        <div class="card-top"><span class="eyebrow">OPTION 03</span><button class="copy-btn" data-copy="Founder at SoftWorks Global | Practical Software for Healthcare, Retail, Food Service &amp; Field Operations" aria-label="Copy headline option 3">Copy</button></div>
+        <h3>Founder at SoftWorks Global | Practical Software for Healthcare, Retail, Food Service &amp; Field Operations</h3><p class="muted">Uses recognizable customer categories to make the portfolio tangible.</p>
+      </article>
+      <article class="headline-card reveal">
+        <div class="card-top"><span class="eyebrow">OPTION 04</span><button class="copy-btn" data-copy="SaaS Product Builder | Turning Everyday Business Workflows into Focused Software | SoftWorks Global" aria-label="Copy headline option 4">Copy</button></div>
+        <h3>SaaS Product Builder | Turning Everyday Business Workflows into Focused Software | SoftWorks Global</h3><p class="muted">Emphasizes the operational problem-solving approach.</p>
+      </article>
+      <article class="headline-card reveal">
+        <div class="card-top"><span class="eyebrow">OPTION 05</span><button class="copy-btn" data-copy="Founder &amp; CEO at SoftWorks Global | Vertical SaaS, Business Automation &amp; Practical AI" aria-label="Copy headline option 5">Copy</button></div>
+        <h3>Founder &amp; CEO at SoftWorks Global | Vertical SaaS, Business Automation &amp; Practical AI</h3><p class="muted">Connects the software portfolio with Juan&#x27;s stated technical interests.</p>
+      </article></div>
+</section>
+<section class="section" id="about"><div class="section-head"><div class="section-label">04 / About</div><div><h2>Make the About section work harder</h2><p class="lede">Your current About has strong ingredients: mission, technical range, and a commitment to practical software. It repeats the mission in a few places and delays the clearest differentiation. The replacement leads with the buyer's reality, explains the vertical SaaS model, and uses public portfolio proof.</p></div></div>
+<h3 style="font-size:1rem;margin-bottom:10px">Current About, as supplied</h3>
+<div class="current-about">I am the Founder &amp; CEO of SoftWorks Global, a US-based software company focused on building practical vertical SaaS solutions that help small businesses operate more efficiently, improve productivity, and streamline day-to-day operations.<br><br>My vision is to create an ecosystem of specialized cloud-based business applications that serve a wide range of industries while remaining affordable and easy to use for small and medium-sized organizations. Rather than building a single product, SoftWorks Global is developing a growing portfolio of software solutions designed to solve real operational challenges faced by business owners every day.<br><br>My background spans software development, cloud technologies, business process automation, product architecture, artificial intelligence, and digital business systems. I enjoy identifying inefficiencies, designing scalable solutions, and transforming complex business processes into software that is intuitive and effective.<br><br>At SoftWorks Global, we believe small businesses deserve access to the same level of technology that larger organizations use to operate and grow. Our mission is to make powerful business software accessible to organizations across a broad range of industries and operational needs.<br><br>Areas of interest include:<br>Software Architecture<br>SaaS Product Development<br>Artificial Intelligence<br>Business Process Automation<br>Cloud Computing<br>Entrepreneurship<br>Digital Marketing<br>Small Business Technology<br><br>I enjoy connecting with business owners, entrepreneurs, technology professionals, and others who are passionate about using technology to solve real-world problems and create meaningful business value.</div>
+<div style="height:18px"></div>
+<div class="about-block">
+ <div class="about-actions"><div><span class="tag">Paste-ready replacement</span><h3 style="margin:4px 0 0">Your new About section</h3></div><button class="copy-primary" id="copy-about">Copy About</button></div>
+ <div class="about-text" id="new-about"></div>
+</div>
+</section>
+<section class="section" id="featured"><div class="section-head"><div class="section-label">05 / Featured</div><div><h2>Surface proof, not just topics</h2><p class="lede">The supplied profile lists a publication, but the PDF does not show a complete view of the LinkedIn Featured section. These are recommended directions, not claims about what is currently displayed.</p></div></div>
+<div class="grid-3">
+ <article class="featured-card reveal"><div class="number">01</div><h3>Smart AI Agents</h3><p>Feature the book or publication “Smart AI Agents: Don't Let Tokens Eat Up Your Budget” with a concise explanation of the practical lesson readers will take away.</p></article>
+ <article class="featured-card reveal"><div class="number">02</div><h3>Explore the SaaS ecosystem</h3><p>Link to the SoftWorks Global product directory and help visitors find the platform relevant to their industry.</p></article>
+ <article class="featured-card reveal"><div class="number">03</div><h3>One product, one workflow</h3><p>Show a short product walkthrough or product page that demonstrates how a specialized tool supports a specific business workflow.</p></article>
+</div>
+</section>
+<section class="section" id="banner"><div class="section-head"><div class="section-label">06 / Banner</div><div><h2>Give the banner one clear job</h2><p class="lede">The current banner image was not included in the supplied profile materials, so its existing message cannot be assessed reliably.</p></div></div>
+<div class="banner-direction">
+ <div><span class="tag">Recommended direction</span><h3 style="font-family:var(--serif);font-weight:500;font-size:1.8rem;line-height:1.15">Software built around how your business works.</h3><p>Support the message with “Industry-specific SaaS for real-world operations” and the verified scale line “100+ platforms · 15+ industries.” This expresses the company's differentiation without crowding the banner with a long product list.</p><p><strong>Your new banner is attached separately.</strong></p></div>
+ <div class="banner-sample" role="img" aria-label="Illustrative banner direction with dark navy background, teal accents, headline and scale line"><strong>Software <span>built around</span><br>how your business works.</strong><small>Industry-specific SaaS for real-world operations<br><br><b style="color:#73e2dc">100+ platforms</b> · 15+ industries</small></div>
+</div>
+</section>
+<section class="section" id="next"><div class="section-head"><div class="section-label">07 / The shift</div><div><h2>From broad description to a sharper idea</h2><p class="lede">The aim is not to make the profile louder. It is to make the business model easier to understand and remember.</p></div></div>
+<div class="shift"><div class="shift-box"><h3>Current emphasis</h3><p>Founder, broad SaaS reach, technical interests, and AI authorship.</p></div><div class="shift-arrow" aria-hidden="true">→</div><div class="shift-box new"><h3>Stronger emphasis</h3><p>Founder building focused industry-specific software that helps small businesses run their real-world operations.</p></div></div>
+</section>
+<section class="section"><div class="section-head"><div class="section-label">Sources</div><div><h2>Reference points</h2><p class="lede">Recommendations are based on the supplied LinkedIn profile export and public SoftWorks Global pages.</p></div></div>
+<div class="sources"><a href="https://www.linkedin.com/in/juan-cabrera-softworks" target="_blank" rel="noopener noreferrer">Juan's LinkedIn profile</a><a href="https://softworksglobal.com/" target="_blank" rel="noopener noreferrer">SoftWorks Global website</a><a href="https://softworksglobal.com/software/index.html" target="_blank" rel="noopener noreferrer">Product directory</a></div>
+</section>
+</main>
+<footer class="footer"><div class="wrap">Prepared for Juan Cabrera · LinkedIn Positioning Review</div></footer>
+<script>
+const aboutCopy = `Small businesses should not have to reshape the way they work just to fit generic software.
+
+I’m the Founder & CEO of SoftWorks Global, where we build focused SaaS platforms around the real workflows of small businesses across different industries.
+
+From practice management and pet care to food service, field operations, retail, and business administration, our approach is simple: identify a specific operational problem and build software that helps make the work clearer, more organized, and easier to manage.
+
+Rather than forcing every business into one oversized platform, SoftWorks Global is building an ecosystem of specialized cloud-based applications. The goal is practical software that fits the way an industry operates, without unnecessary complexity.
+
+My work sits at the intersection of software architecture, SaaS product development, cloud technologies, AI, and business process automation. I’m especially interested in how thoughtful product design can turn everyday operational friction into more usable systems.
+
+SoftWorks Global’s public product ecosystem spans 100+ SaaS platforms across 15+ industries. We are guided by a few principles: focus on a real problem, build for the people doing the work, operate with integrity, and create software businesses can rely on for the long run.
+
+If you run a small business, build software, or are exploring practical ways technology can improve day-to-day operations, I’d be glad to connect.
+
+Explore the platforms: https://softworksglobal.com/`;
+document.getElementById('new-about').textContent = aboutCopy;
+async function copyText(text, button) {
+  const original = button.textContent;
+  try {
+    await navigator.clipboard.writeText(text);
+  } catch (e) {
+    const area = document.createElement('textarea');
+    area.value = text; area.style.position = 'fixed'; area.style.opacity = '0';
+    document.body.appendChild(area); area.select(); document.execCommand('copy'); area.remove();
+  }
+  button.textContent = 'Copied';
+  window.setTimeout(() => button.textContent = original, 1400);
+}
+document.querySelectorAll('[data-copy]').forEach(button => {
+  button.addEventListener('click', () => copyText(button.getAttribute('data-copy'), button));
+});
+document.getElementById('copy-about').addEventListener('click', function() { copyText(aboutCopy, this); });
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); } });
+}, {threshold: .12});
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+const sections = document.querySelectorAll('section[id]');
+const links = document.querySelectorAll('.navlinks a');
+const navObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      links.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + entry.target.id));
+    }
+  });
+}, {rootMargin:'-25% 0px -65% 0px'});
+sections.forEach(section => navObserver.observe(section));
+</script>
+</body>
+</html>
